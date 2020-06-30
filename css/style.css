@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Base CSS */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 115px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-area,
+.biography-area,
+.testimonial-area,
+.portfolio-area,
+footer {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.welcome-area {
+    background-image: url(../images/header-bg.png);
+}
+
+.biography-area {
+    background-image: url(../images/biography-bg.png);
+}
+
+.testimonial-area,
+.portfolio-area {
+    background-image: url(../images/latest-work-bg.png);
+}
+
+.welcome-image {
+    text-align: right;
+}
+
+.welcome-image img {
+    max-width: 95%;
+}
+
+.welcome-area h1 {
+    color: #202428;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 38px;
+}
+
+.welcome-area h1 span {
+    display: block;
+    color: #ec4c7a;
+    font-size: 53px;
+    font-weight: 800;
+    margin-top: 22px;
+}
+
+.boxed-btn {
+    display: inline-block;
+    padding: 11px 38px;
+    background: #ec4b74;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 42px;
+}
+
+.plt-135 {
+    padding: to;
+    padding-top: 135px;
+    margin-left: 70px;
+}
+
+p {
+    color: #707070;
+}
+
+.sectio-title {
+    color: #202428;
+    font-size: 42px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.sectio-title.text-left {
+    text-align: left;
+}
+
+.portfolio-area {
+    overflow: hidden;
+}
+
+.portfolio-list {
+    margin-left: -3%;
+    padding-top: 30px;
+    display: block;
+}
+
+.portfoio-bg {
+    height: 280px;
+    width: 30%;
+    margin-left: 3%;
+    background-color: #f5a731;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+}
+
+.portfoio-bg-1 {
+    background-image: url(../images/latest-work/work-1.png);
+}
+
+.portfoio-bg-2 {
+    background-image: url(../images/latest-work/work-2.jpg);
+}
+
+.portfoio-bg-3 {
+    background-image: url(../images/latest-work/work-3.jpg);
+}
+
+footer {
+    background-image: url(../images/footer-bg.png);
+}
